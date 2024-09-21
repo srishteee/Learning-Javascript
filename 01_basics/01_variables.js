@@ -8,7 +8,7 @@ accountEmail = "xyz.google.com";
 accountPassword='234245'
 accountCity='jaipur'
 console.log(accountID);
-console.table([accountEmail,accountPassword,accountCity]);   // easiest way to make in a tabular form
+console.table([accountEmail,accountPassword,accountCity]);     // easiest way to make in a tabular form
 
 
 // prefer to use let instead of var becaus eof block and functional scope
