@@ -16,7 +16,6 @@ const bigNumber = 288787392892829829289282n  // when you used 'n' at last it aut
 // Non Primitive or Reference Type
 // ARRAYS, OBJECTS, FUNCTIONS 
 
-
 const heros = ["batman", "shaktiman", "goku"]   // arrays 
 // objects inside these {} braces.
     let myObj = {    // t store in variables
@@ -25,7 +24,6 @@ const heros = ["batman", "shaktiman", "goku"]   // arrays
 }
 
 // functions
-
 const myFunction= function(){   // here is to store inside the variables
  console.log("hello world");
 }
@@ -56,5 +54,26 @@ const myFunction= function(){   // here is to store inside the variables
 // object => object
 
 
+// +++++++++++++++++++++++ Memory in Js
+  //  whenever STACK  is used in all the primitive data types whereas HEAP is used in all non primitive data types
+  // whenever stack memory is used then it gives the copy of that variable and in heap  it gives the reference of that varaible ( orginal value)
+// example below 
+
+let myName = " Srishti ";   
+let anotherName = "rhea"
+console.log(myName);
+
+
+let userOne = {
+    email : "xyz.gamil.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+// in object we use . (dot) to access their properties
+userTwo.email = "srishti@abc.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
