@@ -16,7 +16,7 @@ console.log(score.toFixed(2));   // it gives the value in ddecimal basically use
 
 const number = 1123.9989
 
-console.log( number.toPrecision(3))   // it gives the precise value also take a look before the decimal
+console.log( number.toPrecision(3)) ;  // it gives the precise value also take a look before the decimal
 
 const hundereds= 100000;
 console.log( hundereds.toLocaleString());  
@@ -34,10 +34,10 @@ console.log( hundereds.toLocaleString());
 // where to use ax value we used mostly on random
 
 // console.log(Math.random()) // it always gives the value between 0 to 1
-console.log(Math.floor(Math.random()*10) +1)  // it shift the value whenever you multiply by 10 to avaoid the os we add 1 
+console.log(Math.floor(Math.random()*10) +1);  // it shift the value whenever you multiply by 10 to avaoid the os we add 1 
 
 // formula to define min and max
 const min =10;
 const max = 20;
-console.log(Math.floor(Math.random() * (max-min +1))+min)   
+console.log(Math.floor(Math.random() * (max-min +1))+min);
  
