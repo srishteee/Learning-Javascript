@@ -23,7 +23,7 @@
 // // deep copy
 // let b= JSON.parse(JSON.stringify(myObj))
 // b.anotherObj.city= "mumbai"
-// b.name="ashish"
+// b.name="sam"
 // console.log(myObj);
 // console.log(b)
 
